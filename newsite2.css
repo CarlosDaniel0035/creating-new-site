@@ -1,0 +1,61 @@
+@media (min-width:481px){    
+    body{
+        background-image: url(img/sedf.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 970px;
+        color:azure;
+        background-color:white;
+        font-size: x-large;
+        
+    }
+
+    .lista{
+        text-align: left;
+        word-wrap: break-word;
+        text-decoration: underline;
+        
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .imagem{
+        width: 100%;
+        text-align: center;   
+    }
+    footer{
+        position: relative;
+        text-align: right;
+        font-size: large;
+        top: 80px;
+    }
+}
+
+@media (max-width:480px) {
+    body{
+        background-image: url(img/sedf.png);
+        color: azure;
+        background-color: white;
+        font-size: medium;
+          
+    }
+    li{
+        font-size: larger;
+    }
+    h1{
+        text-align: center;
+    }
+    .imagem img{
+        position: relative;
+        top: 5em;
+        width: 100%;
+    }
+    footer{
+        position: relative;
+        text-align: right;
+        font-size: medium;
+        top: 130px;
+    }
+}

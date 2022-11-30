@@ -1,0 +1,103 @@
+@media (min-width:481px){
+   body{
+        background-image: url(img/bjl.png);
+        background-repeat: repeat;
+        background-size: cover;
+
+        color: white;
+        background-color:rgb(252, 252, 252);
+        font-size: x-large;
+        font-family:'Times New Roman', Times, serif
+    }
+
+    li{
+        text-align:center;
+        list-style-type:none;
+    }
+
+    .video{
+        width: 100%;
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+
+    }
+
+    #faleconosco{
+    text-align: center;
+    }
+
+    .fonte{
+        color: aquamarine;
+        font-size: medium;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    h1{
+        font-style: italic;
+        text-align: center;
+    }
+    .texto{
+        
+        font-style: italic;
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    #vd{
+        text-decoration: underline;
+    }
+
+    #conf{
+
+        text-align: center;
+    }
+    footer{
+        position: relative;
+        text-align: right;
+        font-size: large;
+    }
+}
+
+@media (max-width:480px){
+    body{       
+        background-image: url(img/bjl.png);
+        background-repeat: repeat;
+        background-size: cover;
+        height: 970px;
+        color: white;
+        background-color:rgb(252, 252, 252);
+        font-size:large;
+        font-family:'Times New Roman', Times, serif
+    }
+    h1{
+        text-align: center;
+    }
+    .texto{
+        text-align: center;
+    }
+    .fonte{
+        text-align: center;
+    }
+    li{
+        list-style: none;
+        text-align: center;
+    }
+    .video iframe{
+        width: 100%;
+        text-align: center;
+    }
+    #faleconosco{
+        text-align:center;
+    }
+    footer{
+        top: 40px;
+        position: relative;
+        text-align: right;
+        font-size: medium;
+    }
+}

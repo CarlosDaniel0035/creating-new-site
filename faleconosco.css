@@ -1,0 +1,133 @@
+@media (min-width:481px){
+    body{
+        background-attachment: fixed;
+        background-image: url(img/dowblack.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        color:antiquewhite;
+        background-color:white;
+        font-size: large;
+        font-family:'Times New Roman', Times, serif;
+
+        }
+    
+    #voltar{
+            text-align: left;
+            text-decoration: none;
+            font-size: x-large;
+            color: antiquewhite;
+    }
+    h1{
+        text-align: center;
+    }
+    table{
+        border: solid ghostwhite;
+        font-size: x-large;
+        position: absolute;
+        left: 680px;
+        top: 180px;
+    }
+
+    #tbl2{
+        width: 260px;
+        height: 150px;
+        border: 3px solid whitesmoke;
+        position: absolute;
+        left: 770px;
+        top: 500px;
+    }
+    #login, #senha{
+        position: absolute;
+        left: 10px;
+        width: 230px;
+        height: 25px;
+    }
+    #senha{
+        position: absolute;
+        top: 90px;
+    }
+    #login{
+        position: absolute;
+        top: 50px;
+    }
+    #digite{
+        text-align: center;
+    }
+    #name, #eml{
+                width: 300px;
+                height: 23px;
+    }
+    #data{
+        font-size: x-large;
+        width: 300px;
+        height: 29px;
+    }
+    #telefone{
+        width: 300px;
+        height: 25px;
+    }
+    footer{
+        position: relative;
+        text-align:end;
+        top: 650px;
+    }
+    
+}
+@media (max-width:480px){
+    body{
+        background-image: url(img/dowblack.jfif);
+        background-color: aliceblue;
+        color: white;
+        
+    }
+    #voltar{
+        position: relative;
+        text-align: left;
+        text-decoration: none;
+        color: antiquewhite; 
+    }
+    h1{
+        text-align: center;
+    }
+    #digite{
+        text-align: center;
+        text-decoration: underline;
+    }
+    #tbl2{
+        text-align: center;
+        position: relative;
+        top: 80px;
+    }
+    table{
+        width: 100%;
+        position: relative;
+        
+    }
+    #name, #eml{
+        width: 300px;
+        height: 22px;
+    }
+    #data{
+        font-size: large;
+        width: 300px;
+        height: 24px;
+    }
+    #telefone{
+        width: 300px;
+        height: 22px;
+    }
+    figure{
+        border: 2px solid white;
+    }
+    #login, #senha{
+        width: 250px;
+        height: 25px;
+    }
+    footer{
+        position: relative;
+        text-align:end;
+        top: 530px;
+    }
+    
+}
